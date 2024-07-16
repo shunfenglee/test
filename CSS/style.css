@@ -1,0 +1,115 @@
+
+.N_link_style a{
+    color: red;
+}
+
+.F_link_style a {
+    color: violet;
+}
+
+
+
+
+
+/* h1{
+    color: blue;
+    font-size: 30px;
+}
+
+a:hover{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+a:active{
+    color: red;
+}
+
+.p_style1{
+     border: 10px dotted cyan;
+    border-top: 10px solid red;
+    border-left: 10px solid blue;
+    border-bottom: 10px solid blueviolet;
+    border-right: 10px solid orange;
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 70px 50px 30px 10px;
+}
+*/
+
+/* 線條樣式：solid（實線）、dashed（虛線）、dotte（原點虛線） */
+
+/* 段落優化排版 
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    text-indent: 32px;
+}
+*/
+
+/* 區塊元素與行內元素 
+區塊元素
+盡可能佔滿整個版面，預設佔滿
+會另起一行來呈現
+反之就是行內
+
+行內元素，常用在段落中
+預設無法設定寬高
+a 連結
+span 行內CSS點綴標籤，無語意
+
+*/
+
+
+/* CSS選擇器
+標籤選擇{
+
+}
+
+擬態選擇{
+
+}
+
+類別選擇{
+
+}
+自訂樣式<.class #id(only)
+
+後代選擇器
+ */
+
+
+ .box{
+     width: 50px;
+     height: 50px;
+     border: 10px solid blue;
+     padding: 10px;
+     background: #000;
+ }
+ .box2{
+    width: 50px;
+    height: 50px;
+    border: 10px solid blue;
+    padding: 10px;
+    background: #000;
+    box-sizing: border-box;
+ }
+
+ .container{
+    display: flex;
+    background: #046; 
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+ }
+
+ .item{
+     background: #00ffa2;
+     width: 100px;
+     color: #046;
+     font-size: 36px;
+     text-align: center;
+     margin: 10px;
+ }
